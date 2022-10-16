@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/4b6fba0227.js" crossorigin="anonymous"></script>
-        <title>Mini Project 1</title>
+        <title>Klay and Kraft Art Sculpt</title>
+        <script src="https://kit.fontawesome.com/6f8c0f3ed3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');">
+        
 
     </head>
     <body>
@@ -16,44 +18,37 @@
             <nav>
                 <a href="index.html"><img src="./assets/image/logo.jpg" alt="logo"></a>
                 <div class="nav-links" id="navLinks">
-                    <i class="fa-solid fa-xmark" onclick="hideMenu"></i>
+                    <i class="fa fa-xmark" onclick="hideMenu"></i>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="About.html">About</a></li>
-                        <li><a href="Class.html">Classes & WorkShop</a></li>
+                        <li><a href="Class.html">Classes</a></li>
                         <li><a href="Shop.html">Shop</a></li>
                         <li><a href="Events.html">Events</a></li>
                         <li><a href="Blog.html">Blog</a></li>
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <i class="fa-solid fa-bars" onclick="showMenu"></i>
+                <i class="fa fa-bars" onclick="showMenu"></i>
             </nav>
             <div class="text-box">
-                <h1>Hello Kreatives! Welcome To KAKAS</h1>
-                <p>We aim to enrich lives by teaching and promoting the ceramic arts</p>
-                <a class="hero-btn">LEARN MORE</a>
+                <h1>Hello Kreatives!</h1>
+                    <span>Welcome To KAKAS</span>
+                    <p>We aim to enrich lives by teaching and promoting the ceramic arts</p>
+                    <a class="hero-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-    
-
-
-
-
-</header>
-
-
-</div>
-
-    <script>
-       var navLinks= document.getElementById("navLinks");
+        </section>
+        
+        <script>
+        
+        var navLinks = document.getElementById("navLinks");
 
         function showMenu () {
             navLinks.style.right= "0";
         }
         function hideMenu () {
-            navLinks.style.right= "200px";
+            navLinks.style.right= "-200px";
         }
-
-    </script>
-</body>
+        </script>
+    </body>
 </html>
